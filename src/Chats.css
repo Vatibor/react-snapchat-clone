@@ -25,6 +25,7 @@
 .chats__avatar {
     height: 25px !important;
     width: 25px !important;
+    cursor: pointer;
 }
 
 .chats__search > input {
@@ -39,6 +40,16 @@
 .chats__search > input::placeholder {
     color: white;
     opacity: 1;
+}
+
+.chats__chatIcon{
+    color: white;
+    font-size: 18px !important;
+}
+
+.chats__searchIcon{
+    font-size: 13px !important;
+    color: white;
 }
 
 .chats__posts {
@@ -58,3 +69,18 @@
     display: none;
 }
 
+.chats__takePicIcon {
+    position: absolute;
+    background-color: white;
+    border-radius: 200px;
+    color: gray;
+    font-size: 40px !important;
+    cursor: pointer;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chats__takePicIcon:hover {
+    opacity: 0.8;
+}
